@@ -8,4 +8,4 @@ EXPOSE 53/tcp 53/udp
 
 VOLUME ["/etc/bind"]
 
-CMD ["/usr/sbin/named", "-f", "-g"]
+CMD ["named", "-f", "-g"]
